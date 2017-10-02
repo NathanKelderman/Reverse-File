@@ -4,5 +4,3 @@ clean:
 	rm reverse myFile1.txt
 run:
 	./reverse myFile.txt myFile1.txt
-complete:
-	make clean && make && make run
